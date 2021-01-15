@@ -1,4 +1,4 @@
-# GeoMapping homework for UNC Data Analytics Bootcamp
+# GeoMapping Visualizing Data with Leaflet homework for UNC Data Analytics Bootcamp
 The github repo for this code is located here.
 
 Important points:
@@ -21,7 +21,6 @@ Useful Resources
 L controls tutorial click here!
 
 This is the information provided by Trilogy Education Services as the basis for the project.
-Unit 17 | Visualizing Data with Leaflet
 Background
 1-Logo
 
@@ -77,8 +76,3 @@ Visual appearance
 
 Professionalism
 
-Copyright
-This selection of code is displayed by to Warren Ross @ this GitHub.
-The content was derived from an assignment distributed by USC Data Analytics Bootcamp and Trilogy Education Services. Copyright anotated below:
-
-Data Boot Camp (C) 2018. All Rights Reserved.
