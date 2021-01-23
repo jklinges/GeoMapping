@@ -2,10 +2,9 @@
 
 Earthquake-Visualization
 Created a map using Leaflet that plots all of the earthquakes and faultlines based on their longitude and latitude to find the relationship between tectonic plates and seismic activity.
->The map image(s) shows the earthquake data over the last 7 days.  Color and size of the circles correspond to the magnitude of the earthquake.  Click the circles for additional information (such as date, time:EST, proximity to near town/metro area, magnitude of the earthquake and the number of people who reported feeling it).
+>Per Level 1 of the Instructions below, the map image(s) shows the earthquake data over the last 7 days.  Color and size of the circles correspond to the magnitude of the earthquake.  Click the circles for additional information (such as date, time:EST, proximity to near town/metro area, magnitude of the earthquake and the number of people who reported feeling it).
 
 Background
-1-Logo
 
 Welcome to the United States Geological Survey, or USGS for short! The USGS is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. As a new hire, you will be helping them out with an exciting new project!
 
@@ -63,9 +62,6 @@ Add layer controls to our map.
 
 Assessment
 Your final product will be assessed on the following metrics:
-
 Completion of assigned tasks
-
 Visual appearance
-
 Professionalism
