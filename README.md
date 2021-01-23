@@ -1,6 +1,6 @@
 # GeoMapping-Visualizing-Data-with-Leaflet
 
-Earthquake-Visualization (Level 1 - see instructions below)
+Earthquake-Visualization (Level 1)
 I created a map using Leaflet that plots all of the earthquakes and faultlines based on their longitude and latitude to find the relationship between tectonic plates and seismic activity.
 >Per Level 1 of the Instructions below, the map image(s) shows the earthquake data over the last 7 days.  Color and size of the circles correspond to the magnitude of the earthquake.  Click the circles for additional information (such as date, time:EST, proximity to nearby town/metro area, magnitude of the earthquake and the number of people who reported feeling it). The deeper the color red in the circle, the greater size in magnitude of the earthquake measured (see "largestearthquake.png" in the image folder for the largest earthquake measured during the week reviewed)
 
@@ -49,7 +49,6 @@ Your visualization should look something like the map above.
 
 Level 2: More Data (Optional)
 5-Advanced
-
 The USGS wants you to plot a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in a second data set and visualize it along side your original set of data. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplates.
 
 In this step we are going to..
