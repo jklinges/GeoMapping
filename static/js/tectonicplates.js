@@ -1,23 +1,4 @@
-jump8621
-/
-leaflet-quakes
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-leaflet-quakes/static/js/tectonicplates.js /
-@jump8621
-jump8621 add base maps and changed heat map colors
-Latest commit 9270148 12 hours ago
- History
- 1 contributor
-255 lines (209 sloc)  10.8 KB
+// Add base maps and change heat map colors
   
 var geoJsonLayer;
 // var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"; 
@@ -76,17 +57,6 @@ var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z
     accessToken: API_KEY
 });
 
-
-var WaymarkedTrails_hiking = L.tileLayer('https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png', {
-    maxZoom: 18,
-    attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | Map style: &copy; <a href="https://waymarkedtrails.org">waymarkedtrails.org</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
-});
-
-var WaymarkedTrails_cycling = L.tileLayer('https://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png', {
-    maxZoom: 18,
-    attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | Map style: &copy; <a href="https://waymarkedtrails.org">waymarkedtrails.org</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
-});
-
 var Stamen_TonerBackground = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}{r}.{ext}', {
 	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 	subdomains: 'abcd',
@@ -131,8 +101,7 @@ var overlays = {
     "Earth Quake Magnitude": WorldEarthquakes,
     "Tectonic Plates": TectoncPlates,
     "Heat Map": heatLayer,
-    "Hiking Trails": WaymarkedTrails_hiking,
-    "Cycling Map": WaymarkedTrails_cycling
+   
 };
 
 //Create Map and Default layers to display on Load
