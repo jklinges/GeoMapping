@@ -1,8 +1,10 @@
+/* remove default margin and padding from body */
 body {
   padding: 0;
   margin: 0;
 }
-
+ 
+/* set map, body, and html to 100% of the screen size */
 #map,
 body,
 html {
@@ -34,8 +36,8 @@ html {
 
 .legend li {
   display: inline-block;
-  width: 30px;
-  height: 22px;
+  width: 15px;
+  height: 11px;
 }
 
 .legend .min {
@@ -51,6 +53,11 @@ h1 {
   text-align: center;
 }
 
-/* .legend .low {
-  color: #ec8a2e;
+.legend .low {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+
 } */
