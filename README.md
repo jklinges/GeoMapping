@@ -2,9 +2,7 @@
 
 Earthquake-Visualization (Level 1):
 I created a map using Leaflet that plots all of the earthquakes and faultlines based on their longitude and latitude to find the relationship between tectonic plates and seismic activity.
->Per Level 1 of the Instructions below, the map image(s) shows the earthquake data over the last 7 days.  Color and size of the circles correspond to the magnitude of the earthquake.  Click the circles for additional information (such as date, time:EST, proximity to nearby town/metro area, magnitude of the earthquake and the number of people who reported feeling it). The deeper the color red in the circle, the greater size in magnitude of the earthquake measured (see "largestearthquake.png" in the image folder for the largest earthquake measured during the week reviewed).  In addtion, per Level 2 of the Instructions, a tectonic plates filter was created for the image page (although no additional analysis was performed). 
-
-Map format was enhanced by using a mapbox.com/api.
+>Per Level 1 of the Instructions below, the map image(s) shows the earthquake data over the last 7 days.  Color and size of the circles correspond to the magnitude of the earthquake.  Click the circles for additional information (such as date, time:EST, proximity to nearby town/metro area, magnitude of the earthquake and the number of people who reported feeling it). The deeper the color red in the circle, the greater size in magnitude of the earthquake measured (see "largestearthquake.png" in the image folder for the largest earthquake measured during the week reviewed).  In addtion, per Level 2 of the Instructions, a tectonic plates filter was created for the image page (although no additional analysis was performed). Map format was enhanced by using a mapbox.com/api.
 
 Background
 
